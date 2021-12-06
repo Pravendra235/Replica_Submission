@@ -1,0 +1,256 @@
+
+.teams{
+    position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    height: 50px;
+    background-color:white;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-weight: bolder  ;
+    font-size: larger;
+}
+.teams p{
+    display: inline;
+    position:fixed;
+    right:65px;
+    top:2px;
+    font-size: 16px;
+}.teams img{
+    position: fixed;
+    right: 290px;
+    top:17px;
+    width:16px;
+    background-size: contain;
+}
+.audience, .left-side{
+    display:grid;
+    position:fixed;
+    top:9%;
+    grid-gap:10px;
+    padding: 10px 8px;
+    overflow:scroll;
+}
+.audience{
+    right:1.5%;
+    height: 500px;
+}
+.audience > div, .left-side > div{
+    border-radius: 7px;
+    border:8px solid white;
+}
+.active{
+    background-color: #aaffd6;
+}
+.inactive{
+    background-color: rgb(192, 189, 183);
+}
+.active,.inactive{
+    height:125px;
+    width:250px;
+}
+.animation{
+    background-color:transparent;
+    height:52px;
+    width:52px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position:relative;
+    bottom:16.4px;
+    left:83.8px;
+    animation-name:kalu_mama;
+    animation-duration: 1.5s;
+    animation-delay:3ms;
+    animation-iteration-count: infinite;
+}
+@keyframes kalu_mama{
+    0% {transform: scale(1.1);}
+    25% {transform: scale(1.2);}
+    50% {transform: scale(1.25);}
+    75% {transform: scale(1.2);}
+}
+.micon,.micoff{
+    border-radius: 50%;
+    text-align:center;
+    line-height: 50px;
+    height:50px;
+    width:50px;
+    background-color: white;
+    position:relative;
+    top:40px; left: 90px;
+}
+#khula_mic,.band_mic{
+    position:relative;
+    top:50px;
+    right:100px;
+    width:14px;
+    height: auto;
+}
+#khula_mic{
+    width:11px;
+}
+.bc_or_kitni_class_banani_padengi{
+    position:relative;
+    bottom:65px;
+}
+.band_mic:hover{
+    width: 16px;
+}
+#khula_mic:hover{
+    width:14px;
+}
+/* LEFT SIDE */
+.left-side{
+    height: 490px;
+    left:2%;
+    grid-template-rows: 130px 125px 195px;
+    grid-template-columns: 250px;
+}
+.photo{
+    background-size: cover;
+    background-image: url(camera-mage.png);
+}
+.presenters,.attendees{
+    padding-left: 11px;
+}
+#headP{ position:absolute;top: 140px;}
+#headA{ position:absolute;top:280px;}
+#headA:hover, #headP:hover{
+    background-color: violet;
+    line-height: 12px;
+}
+.namesP{
+    position:absolute;
+    top:195px;
+    height:80px;
+    line-height: 9px;
+    width:215px;
+    overflow:scroll;
+}
+.namesA{
+    position:absolute;
+    top: 330px;
+    height:150px;
+    width:215px;
+    overflow: scroll;
+    line-height: 9px;
+}
+.namesA p:hover, .namesP p:hover{
+    background-color: rgb(230, 237, 243);
+    line-height: 13px;
+    font-weight: bolder;
+}
+/* CENTER PHOTO */
+.middle{
+    height: 465px;
+    width:53%; 
+    margin:auto;
+    position:fixed;
+    top:10.5%; left:23%;
+    background-image: url(screen-share-icon.png);
+    background-position: 150px 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+.middle p{
+    position: relative;
+    top:430px; left: 10px;
+}
+.middle p:hover,.django:hover{text-decoration: underline;}
+middle p:hover{
+    text-decoration-line: underline;
+}
+/* SCROLLBAR */
+::-webkit-scrollbar{
+    width:3px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(211, 207, 202);
+}
+::-webkit-scrollbar-corner{
+    visibility: hidden;
+}
+/* BOTTOM BAR */
+.bottom{
+    display: flex;
+    position: fixed;
+    bottom:2%;
+    left:1.5%;
+    height:50px;
+    width:97%;
+    background-color: white;
+    border-radius: 5px;
+    align-items:center;
+    justify-content: center;
+}
+.icons{
+    background-color:rgb(192, 189, 183) ;
+    width:4%;
+    height:60%;
+    margin:5px;
+    align-items: center;
+}
+body{
+    font-family: serif;
+    background-color: #e8f4f8;
+}
+.bottom  div {
+    border-radius: 5px;
+}
+.django{
+    width:60%;
+    text-align: center;
+    font-size: 18px;
+}
+.leave{
+    background-color: #ff2c2c;
+    width:9%;
+    height: 60%;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 22px;
+    color:white;
+    box-sizing: border-box;
+}
+.leave> img{
+    position:relative;
+    right:17px;
+    top:6px;
+    width:22px;
+}
+.leave:hover{
+    background-color: rgb(214, 51, 22);
+    text-decoration-line: underline;
+}
+#bas_khatam_hone_hi_wala_hai{
+    display: inline;
+}
+#bas_khatam_hone_hi_wala_hai:hover{
+    animation-name: natalie_portman;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 0ms;
+    padding-right: 0px;
+}
+@keyframes natalie_portman {
+    
+    20% {position:relative;left:12px;}
+    45% {position:relative;left:30px;}
+    75% {position:relative;left:70px;}
+    
+
+}
+/* ICONS */
+#camera{width:15px; padding-left: 15px; padding-top:10px;}
+#mic{width:12px; padding-left:17px;padding-top:7px}
+#whiteboard{width:15px;padding-left: 17px; padding-top: 8px;}
+#settings{width:14px; padding-left: 17px; padding-top:8px;}
+
+.icons:hover{
+    background-color: #aaffd6;
+}
+
