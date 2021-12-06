@@ -8,7 +8,6 @@ Respected Sir/Madam I just had a few things to say:
    I assign some diff values and after some time it starts working perfectly, so I close the browser and guess what it does when I reopen the file:
    Yes, it shits all over my hard work. I hope you take that into consideration and judge me accordingly
    
-2. Due to diff screen size and stuff, there could be some changes in the web page when you view it. So I humbly request you to pls view the screenshot so you 
-   know how it looked on my screen to fet a better idea of how much it resembles the original photo.
+2. Due to diff screen size and stuff, there could be some changes in the web page when you view it. So I humbly request you to pls view the screenshot included "onMyDevice" so    you know how it looked on my screen and get a better idea of how much it resembles the original photo.
    
             Really enjoyed doing this, by the way. Thanks a lot.
